@@ -1,12 +1,25 @@
-import React, { useContext } from "react"
-import styled from "styled-components"
+'use client'
+
+import React from "react"
+import * as S from './style';
 import Page1 from "@/Componentes/BemViindo /Page1";
+
 
 
 export default function Home() {
   return (
-    <Page1/>
-    
+ <>
+ <S.Container> 
+  <Page1></Page1>
+ <Page1></Page1> 
+ <Page1></Page1>
+ <Page1></Page1> 
+ <Page1></Page1>
+ <Page1></Page1>  
+ 
+ </S.Container>
+
+ </>    
  
   )
 }

@@ -1,37 +1,19 @@
-import React from "react";
-import styled from "styled-components"; // Assuming you want to use styled-components
-import { createContext } from 'react'
- 
-const Context = createContext();
-
-const Container = styled.div`
-height: 100%;
-`;
-
-const Section =  styled.div`
-height 100hv;
-scroll-snap-aling:center;
-display:flex;
-align-items: center;
-justify-content: center;
-
-@meida only (max-width: 768px){ 
-  height: 200vh;
-}
-`;
-
+'use client'
+import React from "react"
+import styled from "styled-components";
+import * as S from './style';
 
 
 const Page1 = () => {
   return (
-    <div>
-    <Section> 
-      <Container> 
-     
-      </Container>
-      </Section>
-     
-    </div>
+  <>
+  <S.Section> 
+    <S.Container>
+
+      
+    </S.Container>
+  </S.Section>
+   </>
   );
 }
 
