@@ -1,8 +1,12 @@
+import React, { useContext } from "react"
+import styled from "styled-components"
+import Page1 from "@/Componentes/BemViindo /Page1";
+
 
 export default function Home() {
   return (
-    <main >
-     <h1> ola</h1>
-    </main>
+    <Page1/>
+    
+ 
   )
 }
