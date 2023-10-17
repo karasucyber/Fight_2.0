@@ -9,6 +9,10 @@ const Page1 = () => {
   <>
   <S.Section> 
     <S.Container>
+      
+      <h1> Treine sem sair de casa</h1>
+      <p> levamos o treino até você </p>
+      <button> eu quero </button>
 
       
     </S.Container>

@@ -9,15 +9,14 @@ import Page1 from "@/Componentes/BemViindo /Page1";
 export default function Home() {
   return (
  <>
- <S.Container> 
+
+ <S.ContainerMain>  
+  
   <Page1></Page1>
- <Page1></Page1> 
- <Page1></Page1>
- <Page1></Page1> 
- <Page1></Page1>
- <Page1></Page1>  
  
- </S.Container>
+ </S.ContainerMain>
+
+ 
 
  </>    
  
