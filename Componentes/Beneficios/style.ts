@@ -7,11 +7,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 height: 100%;
-width: 100%;
-padding: 100px;
+width
 margin: 0 auto;
 max-width: 960px; 
-background-image: url("fundos.jpeg");
+ackground-image: url("public/f28b55ef-f1a7-4434-87ea-e685ba60f5d4 (1).jpeg");
 background-color: #cccccc;
 
 
@@ -19,7 +18,8 @@ background-color: #cccccc;
 
 }`;
 
-export const Section = styled.div`height: 100vh;
+export const Section = styled.div`
+
 
 @media only screen and (max-width: 768px) {
 }`;
