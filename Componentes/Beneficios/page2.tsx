@@ -1,6 +1,5 @@
 import React from "react";
 import* as S from './style';
-import play from "./play";
 
 import YouTube from 'react-youtube';
 
@@ -10,8 +9,8 @@ interface YouTubePlayerProps {
 
 const YouTubePlayer: React.FC<YouTubePlayerProps> = ({ videoId }) => {
   const opts = {
-    height: '360',
-    width: '640',
+    height: '400',
+    width: '700',
     playerVars: {
       autoplay: 1, // Iniciar a reprodução automaticamente
     },
@@ -35,7 +34,6 @@ export const Page2 = () => {
     
     return(
       <> 
-        <S.Section> 
         <S.Container>
         <h1>titulo</h1>
         <YouTube /> 
@@ -43,7 +41,6 @@ export const Page2 = () => {
 chunk
 The standard  of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. </p>
         </S.Container>
-        </S.Section>  
     
     </>)
 
