@@ -1,6 +1,5 @@
 import React from "react";
 import* as S from './style';
-import play from "./play";
 
 import YouTube from 'react-youtube';
 
