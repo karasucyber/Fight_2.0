@@ -8,7 +8,7 @@ justify-content: center;
 align-items: center;
 height: 100%;
 width: 100%;
-padding: 100px;
+padding: 0px;
 margin: 0 auto;
 max-width: 960px; 
 background-image: url("fundos.jpeg");
