@@ -10,6 +10,11 @@ export const Modalidades = () => {
         <S.span3></S.span3>
         <S.span4></S.span4>
      </S.Card>
+
+     
+
+
+     
      
     </S.Container>
 

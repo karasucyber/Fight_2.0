@@ -10,7 +10,6 @@ height: 100%;
 width: 100%;
 padding: 0px;
 margin: 0 auto;
-max-width: 960px; 
 background-image: url("fundos.jpeg");
 background-color: #cccccc;
 
