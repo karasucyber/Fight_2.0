@@ -2,25 +2,39 @@ import React from "react";
 import styled, { keyframes } from 'styled-components';
 
 export const Container = styled.div`
-  display: flex;
-  justify-content: space-between; /* Espaço igual entre os cards */
-  background-color: black;
-  padding: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+padding: 20px;
+margin: 10px;
+background-image: url("");
+background-color: black;
 
-  @media only screen and (max-width: 768px) {
-    padding: 20px; /* Adicione o padding para telas menores, se necessário */
-    background-color: #f0f0f0; /* Altere a cor de fundo em telas menores, se necessário */
-  }
 `;
 
 export const Card = styled.div `
+border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
   position: relative;
   background: #555;
-  width: 300px;
-  height: 400px;
+  width: 200px;
+  height: 350px;
   overflow: hidden;
   background-image: url("Charles_Chandler.jpg");
 `;
+
+export const ContainerCard = styled.div`
+display: flex;
+gap: 60px;
+justify-content: space-between;
+@media (max-width: 768px) {
+  flex-direction: column;
+  align-items: center;
+}
+
+`
 
 const animar1 = keyframes`
   0% {
@@ -40,6 +54,8 @@ export const span1 = styled.div`
   background: linear-gradient(to right, transparent, red);
   animation: ${animar1} 2s linear infinite;
   animation-delay: 1s;
+  &:hover {
+  }
 `;
 
 const animar2 = keyframes`
@@ -57,8 +73,7 @@ export const span2 = styled.div`
   right: 0;
   width: 4%;
   height: 100%;
-  background: linear-gradient(to bottom, transparent, red);
-  animation: ${animar2} 2s linear infinite;
+  
   animation-delay: 1s;
 `;
 
@@ -97,7 +112,6 @@ export const span4 = styled.div`
   left: 0;
   width: 7px;
   height: 100%;
-  background: linear-gradient(to top, transparent, red);
-  animation: ${animar4} 2s linear infinite;
+  
   animation-delay: 1s;
 `;

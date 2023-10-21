@@ -16,5 +16,8 @@ align-items: center;
 }`;
 
 export const VideoContainer = styled.div`
-padding: 10%;
+width: 100%;
+height: 100%;
+border-radius: 20px;
+overflow: hidden;
 `;
