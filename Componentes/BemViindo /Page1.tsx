@@ -12,6 +12,7 @@ const Page1 = () => {
       <S.Titulo>Treine sem sair de casa </S.Titulo>
       <S.Paragrafo>levamos o treino até você</S.Paragrafo>
        <S.Butao> eu quero </S.Butao>
+        <Page2></Page2>
     </S.Container>
    </>
   );

@@ -10,11 +10,11 @@ top: 0;
 height: 100%;
 width: 100%;
 padding: 20px;
-margin: 10px;
 background-image: url("");
-background-color: ;
+color: black;
 
 `;
+
 export const VideoContainer = styled.div`
 display: flex;
 flex-direction: column;
@@ -27,8 +27,8 @@ overflow: hidden;
 `;
 
 export const Paragrafo = styled.p`
-
-width: 50%;
+display: block-inline;
+width: 80%;
 height: 50%;
 font-size: 14px;
 color red;
@@ -43,10 +43,8 @@ font-size: 50px;
 color:white;
 padding:10px;
 gap: 15px;
+color:black;
 @media only screen and (max-width: 768px) {
     font-size: 40px;
-
 }
-
-
 `

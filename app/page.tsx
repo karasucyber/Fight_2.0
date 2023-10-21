@@ -16,7 +16,6 @@ export default function Home() {
 
  <S.ContainerMain>  
   <Page1/>
-  <Page2/>
   <Modalidades/>
   <Depoimentos/>
   <Beneficios/>

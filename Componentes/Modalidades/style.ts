@@ -12,7 +12,6 @@ padding: 20px;
 margin: 10px;
 background-image: url(""); 
 background-color: black;
-
 `;
 
 export const Card = styled.div `
@@ -25,8 +24,8 @@ border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
   background-image: url("example.png");
   background-color: #fff;
   color: #000;
-  background-size: 100%;
-`;
+  background-size: cover;
+  `;
 
 export const ContainerCard = styled.div`
 display: flex;
@@ -35,9 +34,7 @@ justify-content: space-between;
 @media (max-width: 768px) {
   flex-direction: column;
   align-items: center;
-}
-
-`
+}`;
 
 const animar1 = keyframes`
   0% {
@@ -76,7 +73,7 @@ export const span2 = styled.div`
   right: 0;
   width: 4%;
   height: 100%;
-  
+
   animation-delay: 1s;
 `;
 
@@ -99,7 +96,6 @@ export const span3 = styled.div`
   animation: ${animar3} 2s linear infinite;
   animation-delay: 1s;
 `;
-
 const animar4 = keyframes`
   0% {
     transform: translateY(100%);
@@ -115,12 +111,11 @@ export const span4 = styled.div`
   left: 0;
   width: 7px;
   height: 100%;
-  
   animation-delay: 1s;
 `;
+
 export const Titulo = styled.h1`
 padding: 10px;
 margin: 10px;
 color:white;
-
 `

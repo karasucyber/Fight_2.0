@@ -20,7 +20,7 @@ export const Planos = () => {
   return(<> 
 
   <div className="container"> 
-   <h1 className="heading"> Planos</h1>
+   <h1 className="heading"> Planos </h1>
    <Swiper effect={'coverflow'}
    grabCursor={true}
    centeredSlides={true}
