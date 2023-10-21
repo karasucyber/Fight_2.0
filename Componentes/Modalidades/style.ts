@@ -10,7 +10,7 @@ height: 100%;
 width: 100%;
 padding: 20px;
 margin: 10px;
-background-image: url("");
+background-image: url(""); 
 background-color: black;
 
 `;
@@ -22,7 +22,10 @@ border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
   width: 200px;
   height: 350px;
   overflow: hidden;
-  background-image: url("Charles_Chandler.jpg");
+  background-image: url("example.png");
+  background-color: #fff;
+  color: #000;
+  background-size: 100%;
 `;
 
 export const ContainerCard = styled.div`
@@ -118,4 +121,6 @@ export const span4 = styled.div`
 export const Titulo = styled.h1`
 padding: 10px;
 margin: 10px;
-color:white;`
+color:white;
+
+`
