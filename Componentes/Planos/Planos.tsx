@@ -1,54 +1,60 @@
-import React from 'react';
-import styled, { keyframes } from 'styled-components';
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import './style.scss';
+import { IonIcon } from '@ionic/react';
 
-const Container = styled.div`
-  perspective: 1200px;
-  perspective-origin: center;
-`;
 
-const rotate = keyframes`
-  0%, 100% {
-    transform: rotateY(0deg);
-  }
-  20%, 80% {
-    transform: rotateY(120deg);
-  }
-  /* Adicione keyframes para mais slides conforme necessário */
-`;
+import { EffectCoverflow,Pagination,Navigation } from "swiper/modules";
 
-const Carousel = styled.div`
-  width: 300px; /* Largura de cada slide */
-  transform-style: preserve-3d;
-  animation: ${rotate} 12s infinite linear;
-`;
+import slide_image_1 from "./public/Charles_Chandler.jpg";
+import slide_image_2 from "./public/Charles_Chandler.jpg";
+import slide_image_3 from "./public/Charles_Chandler.jpg";
 
 
 
-const CarouselItem = styled.div`
-  width: 100%;
-  height: 200px; /* Altura dos slides */
-  position: absolute;
-  transform-origin: center;
-  transition: transform 1s;
-`;
+export const Planos = () => {
+  return(<> 
 
-const SlideImage = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-`;
+  <div className="container"> 
+   <h1 className="heading"> Planos</h1>
+   <Swiper effect={'coverflow'}
+   grabCursor={true}
+   centeredSlides={true}
+   loop={true}
+   slidesPerView={'auto'}
+   coverflowEffect={{rotate:0, stretch: 0, depth:100,modifier: 2.5, }}
+   pagination={{el:'',clickable :true}}
+   navigation={{
+    nextEl:'swiper-button-next slider-arrow',
+    prevEl:'swiper-button-prev slider-arrow',
+    hideOnClick: true,
 
-function Carousel3D() {
-  return (
-    <Container>
-      <Carousel>
-        <CarouselItem><SlideImage src="" alt="Image 1" /></CarouselItem>
-        <CarouselItem><SlideImage src="image2.jpg" alt="Image 2" /></CarouselItem>
-        <CarouselItem><SlideImage src="image3.jpg" alt="Image 3" /></CarouselItem>
-        {/* Adicione mais itens conforme necessário */}
-      </Carousel>
-    </Container>
-  );
+   }}
+   modules={[EffectCoverflow, Pagination, Navigation]}
+   className='swiper_container'
+   > 
+    <SwiperSlide>
+      <h1> </h1>
+    <img src="Charles_Chandler.jpg" alt="" />
+     </SwiperSlide>
+     <SwiperSlide>
+    <img src="fundos.jpeg" alt="" />
+     </SwiperSlide>
+     <SwiperSlide>
+    <img src="Charles_Chandler.jpg" alt="" />
+     </SwiperSlide>
+   
+   </Swiper>
+  </div>
+
+
+
+  
+  </>)
 }
 
-export default Carousel3D;
+export default Planos

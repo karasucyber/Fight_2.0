@@ -12,12 +12,15 @@
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
+    "@ionic/react": "^7.5.1",
+    "ionicons": "^7.2.1",
     "next": "13.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-youtube": "^10.1.0",
     "reactstrap": "^9.2.0",
     "redux": "^4.2.1",
+    "sass": "^1.69.4",
     "styled": "^1.0.0",
     "styled-components": "^6.0.8",
     "swiper": "^10.3.1"
