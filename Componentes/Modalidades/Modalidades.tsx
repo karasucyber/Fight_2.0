@@ -3,9 +3,9 @@ import * as S from "./style";
 export const Modalidades = () => {
  return( 
     <> 
-          <h1> Modalidades </h1>
+         <S.Container> 
+         <S.Titulo> Modalidades </S.Titulo>
 
-    <S.Container> 
     <S.ContainerCard>
    
       
@@ -44,6 +44,8 @@ export const Modalidades = () => {
 
     </S.Container>
      
+
+   
      
     
     </>

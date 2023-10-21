@@ -115,3 +115,7 @@ export const span4 = styled.div`
   
   animation-delay: 1s;
 `;
+export const Titulo = styled.h1`
+padding: 10px;
+margin: 10px;
+color:white;`
