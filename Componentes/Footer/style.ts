@@ -1,15 +1,18 @@
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 export const Container = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 100%;
-width: 100%;
-padding: 20px;
-margin: 10px;
-background-image: url("");
-background-color: black;
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  height: 100%;
+  width: 100%;
+`;
 
+export const Column = styled.div`
+  flex: 1;
+  padding: 10px;
+  
+  font-size: 10px;
+  color: white
 `;
