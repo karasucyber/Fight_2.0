@@ -19,12 +19,13 @@ border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
   position: relative;
   background: #555;
   width: 200px;
-  height: 350px;
+  height: 400px;
   overflow: hidden;
   background-image: url("example.png");
   background-color: #fff;
   color: #000;
   background-size: cover;
+  padding: 10px;
   `;
 
 export const ContainerCard = styled.div`

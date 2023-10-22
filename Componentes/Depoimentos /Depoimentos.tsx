@@ -1,56 +1,68 @@
-import React from "react";
 import * as S from "./style";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import './style.scss';
-import { IonIcon } from '@ionic/react';
 
+import './Depoimentos.scss';
 
-import { EffectCoverflow,Pagination,Navigation } from "swiper/modules";
-
-import slide_image_1 from "./public/Charles_Chandler.jpg";
-import slide_image_2 from "./public/Charles_Chandler.jpg";
-import slide_image_3 from "./public/Charles_Chandler.jpg";
+// import required modules
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 export const Depoimentos = () => {
     return(<> 
-    <S.Container>
-    <div className="container"> 
-   <h1 className="heading"> Depoimentos</h1>
-   <Swiper effect={'coverflow'}
-   grabCursor={true}
-   centeredSlides={true}
-   loop={true}
-   slidesPerView={'auto'}
-   coverflowEffect={{rotate:0, stretch: 0, depth:100,modifier: 2.5, }}
-   pagination={{el:'',clickable :true}}
-   navigation={{
-    nextEl:'swiper-button-next slider-arrow',
-    prevEl:'swiper-button-prev slider-arrow',
-    hideOnClick: true,
-
-   }}
-   modules={[EffectCoverflow, Pagination, Navigation]}
-   className='swiper_container'
-   > 
-    <SwiperSlide>
-      <h1> </h1>
-    <img src="Charles_Chandler.jpg" alt="" />
-     </SwiperSlide>
-     <SwiperSlide>
-    <img src="fundos.jpeg" alt="" />
-     </SwiperSlide>
-     <SwiperSlide>
-    <img src="Charles_Chandler.jpg" alt="" />
-     </SwiperSlide>
-   
-   </Swiper>
-  </div>
-
-
+    <S.Container> 
+        <S.Titulo> Depoimentos</S.Titulo>
+    <Swiper
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={'auto'}
+        loop={true}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+        </SwiperSlide>
+      </Swiper>
+    
     </S.Container>
     
     </>)
