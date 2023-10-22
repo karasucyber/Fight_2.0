@@ -24,6 +24,11 @@ border-radius: 10px;
   color: #000;
   background-size: cover;
   padding: 10px;
+  @media only screen and (max-width: 768px) {
+    width: 350px;
+    height: 150px;
+   
+   }
   `;
 
 export const ContainerCard = styled.div`
@@ -115,6 +120,7 @@ export const span4 = styled.div`
   height: 100%;
   animation-delay: 1s;
   animation: ${animar4} 2s linear infinite;
+  
 
 `;
 
