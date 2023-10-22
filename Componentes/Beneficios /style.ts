@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from 'styled-components';
 
 export const Container = styled.div`
 display: flex;
@@ -9,31 +9,117 @@ height: 100%;
 width: 100%;
 padding: 20px;
 margin: 10px;
-background-image: url("");
-background-color: red;
+background-image: url(""); 
+background-color: #666666;
+`;
+
+export const Card = styled.div `
+border-radius: 10px; 
+  position: relative;
+  background: #555;
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  background-color: #fff;
+  color: #000;
+  background-size: cover;
+  padding: 10px;
+  `;
+
+export const ContainerCard = styled.div`
+display: flex;
+gap: 60px;
+padding: 10px;
+justify-content: space-between;
+@media (max-width: 768px) {
+  flex-direction: column;
+  align-items: center;
+}`;
+
+const animar1 = keyframes`
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+`;
+
+export const span1 = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7px;
+  background: linear-gradient(to right, transparent, red);
+  animation: ${animar1} 2s linear infinite;
+  animation-delay: 1s;
+  &:hover {
+  }
+`;
+
+const animar2 = keyframes`
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+`;
+
+export const span2 = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4%;
+  height: 100%;
+  animation: ${animar2} 2s linear infinite;
+
+
+  animation-delay: 1s;
+`;
+
+const animar3 = keyframes`
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+`;
+
+export const span3 = styled.div`
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(to left, transparent, red);
+  animation: ${animar3} 2s linear infinite;
+  animation-delay: 1s;
+`;
+const animar4 = keyframes`
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+`;
+
+export const span4 = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7px;
+  height: 100%;
+  animation-delay: 1s;
+  animation: ${animar4} 2s linear infinite;
 
 `;
 
-export const Titulo =styled.h1`
-font-size: 50px;
+export const Titulo = styled.h1`
+padding: 10px;
+margin: 10px;
 color:white;
-padding:10px;
-gap: 15px;
-@media only screen and (max-width: 768px) {
-    font-size: 40px;
-
-}`
-
-export const ContainerB = styled.div `
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-column-gap: 10px;
-grid-row-gap: 1em;
-
-`
-
-export const ContainerBox = styled.div`
-  height: 150px;
-  width: 300px;
-  background: white;
 `

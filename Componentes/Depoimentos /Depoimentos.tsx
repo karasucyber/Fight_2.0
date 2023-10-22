@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import './Depoimentos.scss';
 
 // import required modules
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 export const Depoimentos = () => {
     return(<> 
@@ -31,36 +31,47 @@ export const Depoimentos = () => {
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow]}
+        modules={[EffectCoverflow,Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
         </SwiperSlide>
+        <SwiperSlide>
+          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+        </SwiperSlide>
+
+        
       </Swiper>
     
     </S.Container>

@@ -25,7 +25,8 @@ export const Planos = () => {
    grabCursor={true}
    centeredSlides={true}
    loop={true}
-   slidesPerView={'auto'}
+   
+   slidesPerView={5}
    coverflowEffect={{rotate:0, stretch: 0, depth:100,modifier: 2.5, }}
    pagination={{el:'',clickable :true}}
    navigation={{

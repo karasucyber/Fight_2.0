@@ -11,7 +11,7 @@ width: 100%;
 padding: 20px;
 margin: 10px;
 background-image: url(""); 
-background-color: black;
+background-color: #666666;
 `;
 
 export const Card = styled.div `

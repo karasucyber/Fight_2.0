@@ -2,10 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 export const Container = styled.div`
-width: 99%;
-background-image: url("");
-background-color: white;
-
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
 `;
 export const Titulo =styled.h1`
 font-size: 50px;
