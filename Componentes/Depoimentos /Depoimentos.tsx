@@ -16,7 +16,7 @@ import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 export const Depoimentos = () => {
     return(<> 
     <S.Container> 
-        <S.Titulo> Depoimentos</S.Titulo>
+        <S.Titulo> depoimento1.jpgs</S.Titulo>
     <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -35,40 +35,40 @@ export const Depoimentos = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+          <img src="depoimento1.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+          <img src="depoimento2.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+          <img src="depoimento3.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+          <img src="depoimento4.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+          <img src="depoimento5.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+          <img src="depoimento6.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+          <img src="depoimento1.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+          <img src="depoimento1.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+          <img src="depoimento1.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+          <img src="depoimento1.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+          <img src="depoimento1.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="Captura de tela_2023-10-22_10-45-20.jpg" />
+          <img src="depoimento1.jpg" />
         </SwiperSlide>
 
         

@@ -15,7 +15,7 @@ const Page1 = () => {
        <S.Butao> eu quero </S.Butao>
         </S.ContainerTex>
         <S.ContaineVid>
-          <Page2></Page2>
+          <Page2 videoSource={""}></Page2>
         </S.ContaineVid>
     </S.Container>
    </>
