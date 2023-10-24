@@ -1,6 +1,8 @@
 import React from "react";
 import * as S from "./style";
 import { IonIcon } from '@ionic/react';
+import { Icon } from "ionicons/dist/types/components/icon/icon";
+
 
 export const Footer = ()=>{
     return(<>
@@ -23,9 +25,8 @@ export const Footer = ()=>{
         </S.Column>
         <S.Column> 
             <h1> Nós siga nas redes socias</h1>
-            <a> Instagram</a>
-             <a> Tik Tok</a>
-             <a> Youtube</a>
+            <S.ContainerIcons><IonIcon name="logo-instagram"></IonIcon> <a> Home_fight</a> <IonIcon name="logo-tiktok"></IonIcon> <a>@Homefight_</a></S.ContainerIcons>
+
         </S.Column>
 
     </S.Container>

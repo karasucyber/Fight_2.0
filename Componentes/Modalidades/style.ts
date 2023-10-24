@@ -18,15 +18,63 @@ export const Card = styled.div `
 border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
   position: relative;
   background: #555;
-  width: 200px;
+  width: 240px;
   height: 400px;
   overflow: hidden;
-  background-image: url("example.png");
+  background-image: url("Funcional.jpeg");
   background-color: #fff;
   color: #000;
-  background-size: cover;
-  padding: 10px;
+  background-size: contain;
+  background-repeat: no-repeat; 
+    padding: 10px;
   `;
+
+
+  export const Card2 = styled.div `
+border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
+  position: relative;
+  background: #555;
+  width: 240px;
+  height: 400px;
+  overflow: hidden;
+  background-image: url("Boxe.jpeg");
+  background-color: #fff;
+  color: #000;
+  background-size: contain;
+  background-repeat: no-repeat; 
+    padding: 10px;
+  `;
+
+  export const Card3 = styled.div `
+  border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
+    position: relative;
+    background: #555;
+    width: 240px;
+    height: 400px;
+    overflow: hidden;
+    background-image: url("MuyThai.jpeg");
+    background-color: #fff;
+    color: #000;
+    background-size: contain;
+    background-repeat: no-repeat; 
+      padding: 10px;
+    `;
+
+    export const Card4 = styled.div `
+    border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
+      position: relative;
+      background: #555;
+      width: 240px;
+      height: 400px;
+      overflow: hidden;
+      background-image: url("Yoga.jpeg");
+      background-color: #fff;
+      color: #000;
+      background-size: contain;
+      background-repeat: no-repeat; 
+        padding: 10px;
+      `;
+  
 
 export const ContainerCard = styled.div`
 display: flex;

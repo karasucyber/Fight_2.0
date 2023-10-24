@@ -16,3 +16,18 @@ export const Column = styled.div`
   font-size: 10px;
   color: white
 `;
+
+
+export const Titulo = styled.div`
+font-siza: 24px;
+`
+
+export const Paragrafo = styled.div` 
+font-size: 12px;
+
+`
+
+export const ContainerIcons = styled.div`
+padding: 10px;
+
+`

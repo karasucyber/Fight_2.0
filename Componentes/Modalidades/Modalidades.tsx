@@ -16,26 +16,26 @@ export const Modalidades = () => {
         <S.span4></S.span4>
      </S.Card>
 
-     <S.Card> 
+     <S.Card2> 
        <S.span1></S.span1>
        <S.span2></S.span2>
         <S.span3></S.span3>
         <S.span4></S.span4>
-     </S.Card>
+     </S.Card2>
 
-     <S.Card> 
+     <S.Card3> 
        <S.span1></S.span1>
        <S.span2></S.span2>
         <S.span3></S.span3>
         <S.span4></S.span4>
-     </S.Card>
+     </S.Card3>
 
-     <S.Card> 
+     <S.Card4> 
        <S.span1></S.span1>
        <S.span2></S.span2>
         <S.span3></S.span3>
         <S.span4></S.span4>
-     </S.Card>
+     </S.Card4>
 
 
 
