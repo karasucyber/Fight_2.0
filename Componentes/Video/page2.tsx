@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-
+import * as S from './style';
 interface Page2Props {
   videoSource: string;
 }
@@ -20,11 +20,14 @@ const Page2: React.FC<Page2Props> = ({ videoSource }) => {
 
   return (
     <div>
-      <video ref={videoRef} controls width="640" height="360">
+        <S.Container> 
+        <video ref={videoRef} controls width="640" height="360">
         <source src={videoSource} type="video/mp4" />
         Seu navegador não suporta a tag de vídeo.
       </video>
       <button onClick={togglePlay}>Reproduzir/Pausar</button>
+        </S.Container>
+    
     </div>
   );
 };

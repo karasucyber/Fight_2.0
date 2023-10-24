@@ -40,13 +40,13 @@ export const Planos = () => {
    > 
     <SwiperSlide>
       <h1> </h1>
-    <img src="Charles_Chandler.jpg" alt="" />
+    <img src="planos.png" alt="" />
      </SwiperSlide>
      <SwiperSlide>
-    <img src="fundos.jpeg" alt="" />
+    <img src="planos.png" alt="" />
      </SwiperSlide>
      <SwiperSlide>
-    <img src="Charles_Chandler.jpg" alt="" />
+    <img src="planos.png" alt="" />
      </SwiperSlide>
    
    </Swiper>

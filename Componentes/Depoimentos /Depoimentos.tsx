@@ -32,7 +32,7 @@ export const Depoimentos = () => {
         }}
         pagination={true}
         modules={[EffectCoverflow,Navigation]}
-        className="mySwiper"
+        className="swiper1"
       >
         <SwiperSlide>
           <img src="depoimento1.jpg" />
