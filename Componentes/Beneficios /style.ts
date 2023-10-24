@@ -22,8 +22,8 @@ border-radius: 10px;
   background-size: cover;
   padding: 10px;
   @media only screen and (max-width: 768px) {
-    width: 350px;
-    height: 150px;
+    width: 400px;
+    height: 300px;
    
    }
   `;

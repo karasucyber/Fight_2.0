@@ -19,7 +19,6 @@ export default function Home() {
   <Modalidades/>
   <Depoimentos/>
   <Beneficios/>
-  <Planos/>
   <Footer/>
  </S.ContainerMain>
 

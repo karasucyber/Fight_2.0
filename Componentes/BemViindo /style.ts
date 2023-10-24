@@ -19,7 +19,7 @@ margin: 0px;
 
 
 export const Titulo =styled.h1`
-font-size: 50px;
+font-size: 60px;
 color:white;
 @media only screen and (max-width: 768px) {
     font-size: 40px;
@@ -31,19 +31,16 @@ color:white;
 font-size: 24px;
 @media only screen and (max-width: 768px) {
  font-size: 24px;
-
 }
-
 `
 export const Butao = styled.button`
-padding:5px;
+padding: 5px;
+margin: 30px;
 color: black;
 background: white;
-width? 50px
+width: 100px;
 @media only screen and (max-width: 768px) {
-    font-size: 20px;
-    border-radius: 10px
-   
+ 
    }
 `
 
@@ -58,8 +55,6 @@ padding: 20px;
 margin: 10px;
 background-image: url("fundos.jpeg");
 background-color: #cccccc;
-
-
 @media only screen and (max-width: 768px) {
     flex-direction: column; /* Altere a direção da flexbox para empilhar em telas menores */
     height: 100%; 

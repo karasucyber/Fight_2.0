@@ -122,7 +122,7 @@ export const span2 = styled.div`
   right: 0;
   width: 4%;
   height: 100%;
-
+  animation: ${animar2} 2s linear infinite;
   animation-delay: 1s;
 `;
 
@@ -160,6 +160,7 @@ export const span4 = styled.div`
   left: 0;
   width: 7px;
   height: 100%;
+  animation: ${animar3} 2s linear infinite;
   animation-delay: 1s;
 `;
 
