@@ -34,14 +34,13 @@ font-size: 24px;
 }
 `
 export const Butao = styled.button`
-padding: 5px;
-margin: 30px;
-color: black;
-background: white;
-width: 100px;
-@media only screen and (max-width: 768px) {
- 
-   }
+background-color: transparent;
+color: white;
+border: none;
+font-size: 16px;
+cursor: pointer;
+display: flex;
+align-items: center;
 `
 
 export const Container = styled.div`
