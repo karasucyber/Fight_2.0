@@ -1,37 +1,52 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import * as S from './style';
-interface Page2Props {
-  videoSource: string;
-}
+import YouTube from 'react-youtube';
 
-const Page2: React.FC<Page2Props> = ({ videoSource }) => {
-  const videoRef = useRef<HTMLVideoElement | null>(null);
+export const Page2 = () => {
+  // Define initial options for the YouTube player
+  const initialOpts = {
+    width: '640', // Default width
+    height: '390', // Default height
+    playerVars: {
+      autoplay: 1,
+    },
+  };
 
-  // Função para reproduzir ou pausar o vídeo
-  const togglePlay = () => {
-    if (videoRef.current) {
-      if (videoRef.current.paused) {
-        videoRef.current.play();
-      } else {
-        videoRef.current.pause();
-      }
+  // Update options based on screen width
+  const opts = {
+    ...initialOpts,
+  };
+
+  // Function to handle window resize and adjust video size
+  const handleWindowResize = () => {
+    const screenWidth = window.innerWidth;
+
+    // Define different options based on screen width
+    if (screenWidth <= 768) {
+      opts.width = '300'; // Adjust width for smaller screens
+      opts.height = '200'; // Adjust height for smaller screens
+    } else if (screenWidth <= 1024) {
+      opts.width = '480'; // Adjust width for medium-sized screens
+      opts.height = '270'; // Adjust height for medium-sized screens
+    } else {
+      opts.width = '640'; // Default width for larger screens
+      opts.height = '390'; // Default height for larger screens
     }
   };
 
+  // Attach the handleWindowResize function to the window's resize event
+  window.addEventListener('resize', handleWindowResize);
+
+  // Initial call to set the initial dimensions
+  handleWindowResize();
+
+  const videoId = 'mzacTvTxzUY'; // Coloque o ID do vídeo desejado
+
   return (
-    <div>
-        <S.Container> 
-          <S.VideoContainer>
-          <video ref={videoRef} controls width="640" height="360">
-        <source src={videoSource} type="video/mp4" />
-        Seu navegador não suporta a tag de vídeo.
-      </video>
-      <button onClick={togglePlay}>Reproduzir/Pausar</button>
-          </S.VideoContainer>
-     
-        </S.Container>
-    
-    </div>
+    <S.Container>
+      <S.Titulo>Veja</S.Titulo>
+      <YouTube videoId={videoId} opts={opts} />
+    </S.Container>
   );
 };
 

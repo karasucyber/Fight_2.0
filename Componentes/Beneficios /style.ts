@@ -122,3 +122,8 @@ padding: 10px;
 margin: 10px;
 color:white;
 `
+
+export const ContainerIcon1 = styled.div`
+width: 7px;
+height: 100%;
+`

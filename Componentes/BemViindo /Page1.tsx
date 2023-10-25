@@ -18,9 +18,7 @@ const Page1 = () => {
        
 
         </S.ContainerTex>
-        <S.ContaineVid>
-          <Page2 videoSource={""}></Page2>
-        </S.ContaineVid>
+          <Page2></Page2>
     </S.Container>
    </>
   );

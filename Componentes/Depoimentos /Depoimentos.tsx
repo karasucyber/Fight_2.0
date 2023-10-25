@@ -16,7 +16,7 @@ import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 export const Depoimentos = () => {
     return(<> 
     <S.Container> 
-        <S.Titulo> depoimento1.jpgs</S.Titulo>
+        <S.Titulo> Depoimentos</S.Titulo>
     <Swiper
         effect={'coverflow'}
         grabCursor={true}

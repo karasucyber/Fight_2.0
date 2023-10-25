@@ -8,7 +8,7 @@ justify-content: center;
 align-items: center;
 height: 100%;
 width: 100%;
-padding: 20px;
+padding: 50px;
 margin: 10px;
 background-image: url(""); 
 background-color: #666666;
@@ -18,15 +18,15 @@ export const Card = styled.div `
 border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
   position: relative;
   background: #555;
-  width: 240px;
-  height: 400px;
+  width: 220px;
+  height: 380px
   overflow: hidden;
-  background-image: url("Funcional.jpeg");
-  background-color: #fff;
+  background-image: url("card-funcional.png");
+  background-color: #f900;
   color: #000;
   background-size: contain;
   background-repeat: no-repeat; 
-    padding: 10px;
+    padding: 0px;
   `;
 
 
@@ -34,51 +34,62 @@ border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
 border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
   position: relative;
   background: #555;
-  width: 240px;
-  height: 400px;
+  width: 220px;
+  height: 370px;
   overflow: hidden;
-  background-image: url("Boxe.jpeg");
-  background-color: #fff;
-  color: #000;
+  background-image: url("card-boxe.png");
+  background-color: #f900;
   background-size: contain;
-  background-repeat: no-repeat; 
-    padding: 10px;
+  background-repeat: repeat; 
   `;
 
   export const Card3 = styled.div `
   border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
     position: relative;
     background: #555;
-    width: 240px;
-    height: 400px;
+    width: 220px;
+    height: 380px;
     overflow: hidden;
-    background-image: url("MuyThai.jpeg");
-    background-color: #fff;
+    background-image: url("card-thai.png");
+    background-color: #f900;
+    
     color: #000;
     background-size: contain;
     background-repeat: no-repeat; 
-      padding: 10px;
     `;
 
     export const Card4 = styled.div `
     border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
       position: relative;
       background: #555;
-      width: 240px;
-      height: 400px;
+      width: 220px;
+    height: 380px;
       overflow: hidden;
-      background-image: url("Yoga.jpeg");
-      background-color: #fff;
+      background-image: url("card-yoga.png");
+      background-color: #f900;
       color: #000;
       background-size: contain;
       background-repeat: no-repeat; 
-        padding: 10px;
       `;
+
+      export const Card5 = styled.div `
+      border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
+        position: relative;
+        background: #555;
+        width: 220px;
+    height: 380px;  
+        overflow: hidden;
+        background-image: url("card-personal.png");
+        background-color: #f900;
+        color: #000;
+        background-size: contain;
+        background-repeat: no-repeat; 
+        `;
   
 
 export const ContainerCard = styled.div`
 display: flex;
-gap: 60px;
+gap:20px;
 justify-content: space-between;
 @media (max-width: 768px) {
   flex-direction: column;
