@@ -17,12 +17,11 @@ export const Footer = ()=>{
         </S.Column>
         <S.Column> 
             <h3> Nós siga nas redes socias</h3>
-            <S.ContainerIcons><Button><IonIcon name="logo-instagram"></IonIcon><a>@Homefight_</a></Button> 
-             <Button><IonIcon name="logo-tiktok"></IonIcon> <a>@Homefight_</a></Button>
-             <Button><IonIcon name="mail-outline"></IonIcon> <a>@Homefight_</a></Button>
+            <S.ContainerIcons><Button href="https://www.instagram.com/homefight_/"><IonIcon name="logo-instagram"></IonIcon></Button> 
+             <Button href="https://www.tiktok.com/@homefight_ "><IonIcon name="logo-tiktok"></IonIcon></Button>
+             <Button href="https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0"><IonIcon name="logo-whatsapp"></IonIcon> </Button>
              </S.ContainerIcons>
-            <S.ContainerIcons>
-                <h3> Formas de Pagamento </h3>
+            <S.ContainerIcons>               
             </S.ContainerIcons>
         </S.Column>
     </S.Container>

@@ -127,3 +127,9 @@ export const ContainerIcon1 = styled.div`
 width: 7px;
 height: 100%;
 `
+
+export const ContainerIcons = styled.div`
+width: 100px;
+height: 100px;
+
+`

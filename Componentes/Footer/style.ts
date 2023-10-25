@@ -4,8 +4,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 100%;
-  width: 100%;
+  height: 300px;
+  width: 1000px;
 
   @media (max-width: 768px) {
     flex-direction: column; /* Altera a direção do fluxo para empilhar verticalmente */
@@ -15,14 +15,16 @@ export const Container = styled.div`
 
 export const ContainerBox = styled.div`
 background: black;  
-padding: 40px;
+padding: 50px;
+margin: 10px;
 `;
 
 export const Column = styled.div`
   flex: 1;
   padding: 10px;
-  font-size: 10px;
   color: white;
+
+
  
   @media (max-width: 768px) {
     font-size: 8px;
@@ -75,8 +77,6 @@ export const ContainerTexto = styled.div`
 
 export const ContainerIcons = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 10px;
 
   @media (max-width: 768px) {
@@ -117,3 +117,5 @@ export const Titulo3 = styled.h2`
   }
 
 `;
+
+
