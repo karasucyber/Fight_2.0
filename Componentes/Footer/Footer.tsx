@@ -1,7 +1,6 @@
 import React from "react";
 import * as S from "./style";
 import { IonIcon } from '@ionic/react';
-import { Icon } from "ionicons/dist/types/components/icon/icon";
 import { Button } from "reactstrap";
 
 export const Footer = ()=>{

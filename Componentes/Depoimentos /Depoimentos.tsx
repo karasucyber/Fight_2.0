@@ -1,16 +1,14 @@
 import * as S from "./style";
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
 import './Depoimentos.scss';
 
-// import required modules
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 export const Depoimentos = () => {

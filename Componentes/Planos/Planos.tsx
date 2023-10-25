@@ -5,16 +5,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './style.scss';
-import { IonIcon } from '@ionic/react';
-
-
 import { EffectCoverflow,Pagination,Navigation } from "swiper/modules";
-
-import slide_image_1 from "./public/Charles_Chandler.jpg";
-import slide_image_2 from "./public/Charles_Chandler.jpg";
-import slide_image_3 from "./public/Charles_Chandler.jpg";
-
-
 
 export const Planos = () => {
   return(<> 

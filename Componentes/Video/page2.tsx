@@ -3,44 +3,36 @@ import * as S from './style';
 import YouTube from 'react-youtube';
 
 export const Page2 = () => {
-  // Define initial options for the YouTube player
   const initialOpts = {
-    width: '640', // Default width
-    height: '390', // Default height
+    width: '640', 
+    height: '390', 
     playerVars: {
       autoplay: 1,
     },
   };
 
-  // Update options based on screen width
   const opts = {
     ...initialOpts,
   };
 
-  // Function to handle window resize and adjust video size
   const handleWindowResize = () => {
     const screenWidth = window.innerWidth;
 
-    // Define different options based on screen width
     if (screenWidth <= 768) {
-      opts.width = '300'; // Adjust width for smaller screens
-      opts.height = '200'; // Adjust height for smaller screens
+      opts.width = '300'; 
+      opts.height = '200'; 
     } else if (screenWidth <= 1024) {
-      opts.width = '480'; // Adjust width for medium-sized screens
-      opts.height = '270'; // Adjust height for medium-sized screens
+      opts.width = '480'; 
+      opts.height = '270'; 
     } else {
-      opts.width = '640'; // Default width for larger screens
-      opts.height = '390'; // Default height for larger screens
+      opts.width = '640'; 
+      opts.height = '390'; 
     }
   };
-
-  // Attach the handleWindowResize function to the window's resize event
   window.addEventListener('resize', handleWindowResize);
-
-  // Initial call to set the initial dimensions
   handleWindowResize();
 
-  const videoId = 'mzacTvTxzUY'; // Coloque o ID do vídeo desejado
+  const videoId = 'mzacTvTxzUY'; 
 
   return (
     <S.Container>
