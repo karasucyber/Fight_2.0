@@ -4,8 +4,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 300px;
-  width: 1000px;
+  height: 100%;
+  width: 100%;
 
   @media (max-width: 768px) {
     flex-direction: column; /* Altera a direção do fluxo para empilhar verticalmente */
@@ -15,16 +15,12 @@ export const Container = styled.div`
 
 export const ContainerBox = styled.div`
 background: black;  
-padding: 50px;
-margin: 10px;
+padding: 40px;
 `;
 
 export const Column = styled.div`
   flex: 1;
-  padding: 10px;
   color: white;
-
-
  
   @media (max-width: 768px) {
     font-size: 8px;
@@ -117,5 +113,3 @@ export const Titulo3 = styled.h2`
   }
 
 `;
-
-
