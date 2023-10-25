@@ -1,5 +1,4 @@
 'use client'
-
 import React from "react"
 import * as S from './style';
 import Page1 from "@/Componentes/BemViindo /Page1";

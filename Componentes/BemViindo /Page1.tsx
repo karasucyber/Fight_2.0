@@ -1,6 +1,5 @@
 'use client'
 import React from "react"
-import styled from "styled-components";
 import * as S from './style';
 import Page2 from "../Video/page2";
 import { IonIcon } from '@ionic/react';
