@@ -2,11 +2,17 @@ import React from 'react';
 import styled from 'styled-components';
 
 export const Container = styled.div`
-display: flex;
-justify-content: space-between;
-height: 100%;
-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    flex-direction: column; /* Altera a direção do fluxo para empilhar verticalmente */
+    align-items: center; /* Centraliza os elementos no eixo transversal (vertical) */
+  }
 `;
+
 export const ContainerBox = styled.div`
 background: black;  
 padding: 40px;
