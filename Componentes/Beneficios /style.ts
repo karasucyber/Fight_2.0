@@ -31,11 +31,13 @@ border-radius: 10px;
 export const ContainerCard = styled.div`
 display: flex;
 gap: 60px;
-padding: 10px;
+padding: 50px;
 justify-content: space-between;
 @media (max-width: 768px) {
   flex-direction: column;
   align-items: center;
+  gap: 30px;
+
 }`;
 
 const animar1 = keyframes`
