@@ -25,7 +25,7 @@ export const ContainerBox1 = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column; /* Altera a direção do fluxo para empilhar verticalmente */
-    align-items: center; /* Centraliza os elementos no eixo transversal (vertical) */
+    align-items: center; 
   }
 `;
 
@@ -88,14 +88,17 @@ export const ContainerTexto = styled.div`
 `;
 
 export const ContainerIcons = styled.div`
-  display: flex;
+  display: center;
   padding: 10px;
+  font-size: 25px;
+
 
   @media (max-width: 768px) {
     padding: 8px;
   }
 
   @media (max-width: 576px) {
+    font-size: 25px;
     padding: 6px;
     flex-direction: column; /* Altera a direção para coluna */
   }

@@ -8,7 +8,7 @@ export const Footer = ()=>{
     <S.ContainerBox> 
     <S.Container>
         <S.Column> 
-            <S.Titulo> Atendimento </S.Titulo>
+            <S.Titulo2> Atendimento </S.Titulo2>
             <S.Paragrafo> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like) </S.Paragrafo>
         </S.Column>
         <S.Column> 
@@ -16,7 +16,7 @@ export const Footer = ()=>{
             <S.Paragrafo> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like) </S.Paragrafo>
         </S.Column>
         <S.Column> 
-            <h3> Nós siga nas redes socias</h3>
+   <S.Titulo2> Siga nas redes socias</S.Titulo2>
             <S.ContainerIcons><Button href="https://www.instagram.com/homefight_/"  target="_blank"><IonIcon name="logo-instagram"></IonIcon></Button> 
              <Button href="https://www.tiktok.com/@homefight_ "  target="_blank"><IonIcon name="logo-tiktok"></IonIcon></Button>
              <Button href="https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0"  target="_blank"><IonIcon name="logo-whatsapp"></IonIcon> </Button>
