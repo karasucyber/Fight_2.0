@@ -17,7 +17,6 @@ const Page1 = () => {
        
 
         </S.ContainerTex>
-          <Page2></Page2>
     </S.Container>
    </>
   );

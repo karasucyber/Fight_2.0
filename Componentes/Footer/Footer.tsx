@@ -17,9 +17,9 @@ export const Footer = ()=>{
         </S.Column>
         <S.Column> 
             <h3> Nós siga nas redes socias</h3>
-            <S.ContainerIcons><Button href="https://www.instagram.com/homefight_/"><IonIcon name="logo-instagram"></IonIcon></Button> 
-             <Button href="https://www.tiktok.com/@homefight_ "><IonIcon name="logo-tiktok"></IonIcon></Button>
-             <Button href="https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0"><IonIcon name="logo-whatsapp"></IonIcon> </Button>
+            <S.ContainerIcons><Button href="https://www.instagram.com/homefight_/"  target="_blank"><IonIcon name="logo-instagram"></IonIcon></Button> 
+             <Button href="https://www.tiktok.com/@homefight_ "  target="_blank"><IonIcon name="logo-tiktok"></IonIcon></Button>
+             <Button href="https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0"  target="_blank"><IonIcon name="logo-whatsapp"></IonIcon> </Button>
              </S.ContainerIcons>
             <S.ContainerIcons>               
             </S.ContainerIcons>

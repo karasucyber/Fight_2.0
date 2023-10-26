@@ -7,6 +7,7 @@ import Planos from "@/Componentes/Planos/Planos";
 import { Footer } from "@/Componentes/Footer/Footer";
 import Depoimentos from "@/Componentes/Depoimentos /Depoimentos";
 import { Beneficios } from "@/Componentes/Beneficios /Beneficions";
+import CreateAquillae from "@/Componentes/Footer/CreateAquillae";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
   <Beneficios/>
   <Planos></Planos>
   <Footer/>
+  <CreateAquillae></CreateAquillae>
  </S.ContainerMain>
 
  

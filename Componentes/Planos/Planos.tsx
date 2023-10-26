@@ -4,7 +4,6 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import './style.scss';
 import { EffectCoverflow,Pagination,Navigation } from "swiper/modules";
 
 export const Planos = () => {
@@ -39,14 +38,14 @@ export const Planos = () => {
      <SwiperSlide>
     <img src="planos.png" alt="" />
      </SwiperSlide>
-   
+     <SwiperSlide>
+    <img src="planos.png" alt="" />
+     </SwiperSlide>
+     <SwiperSlide>
+    <img src="planos.png" alt="" />
+     </SwiperSlide>
    </Swiper>
-  </div>
-
-
-
-  
-  </>)
+  </div></>)
 }
 
 export default Planos

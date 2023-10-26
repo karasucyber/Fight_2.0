@@ -3,9 +3,25 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   height: 100%;
   width: 100%;
+
+  @media (max-width: 768px) {
+    flex-direction: column; /* Altera a direção do fluxo para empilhar verticalmente */
+    align-items: center; /* Centraliza os elementos no eixo transversal (vertical) */
+  }
+`;
+
+
+export const ContainerBox1 = styled.div`
+ background: black;
+  display: flex;
+  justify-content:center;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 7px;  
 
   @media (max-width: 768px) {
     flex-direction: column; /* Altera a direção do fluxo para empilhar verticalmente */
@@ -113,3 +129,14 @@ export const Titulo3 = styled.h2`
   }
 
 `;
+
+export const Button = styled.a`
+  color: red ;
+  border-radius: 2px;
+  width: 150px;
+  height: 100%;
+  border: 2px solid transparent; /* Adicione esta linha para as bordas brancas */
+  font-siza: 1px;
+`
+
+
