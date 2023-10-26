@@ -4,62 +4,95 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { EffectCoverflow,Pagination,Navigation } from "swiper/modules";
+import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import * as S from "./style";
 
 
 export const Planos = () => {
-  return(<> 
-   <S.Container> 
-        <S.Titulo> Depoimentos</S.Titulo>
-    <Swiper
+  return (<>
+    <S.Container>
+      <S.Titulo> Planos</S.Titulo>
+      <Swiper
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={'auto'}
         loop={true}
         coverflowEffect={{
-          rotate: 0,
+          rotate: 50,
           stretch: 0,
-          depth: 500,
-          modifier: 1,
+          depth: 100,
+          modifier: 10,
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow,Navigation]}
+        modules={[EffectCoverflow, Navigation]}
         className="swiper1"
       >
         <SwiperSlide>
-          <img src="depoimento2.jpg" />
+          <img src="planos.png" style={{
+            width: '35rem',
+            height: '48rem',
+            borderRadius: '1rem',
+            objectFit: 'contain'
+          }} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="depoimento3.jpg" />
+          <img src="planos.png" style={{
+            width: '35rem',
+            height: '48rem',
+            borderRadius: '1rem',
+            objectFit: 'contain'
+          }} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="depoimento4.jpg" />
+          <img src="planos.png" style={{
+            width: '35rem',
+            height: '48rem',
+            borderRadius: '1rem',
+            objectFit: 'contain'
+          }} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="depoimento5.jpg" />
+          <img src="planos.png" style={{
+            width: '35rem',
+            height: '48rem',
+            borderRadius: '1rem',
+            objectFit: 'contain'
+          }} />
         </SwiperSlide>
-        <SwiperSlide style={{ }}>
-          <img src="depoimento6.jpg" />
+        <SwiperSlide>
+          <img src="planos.png" style={{
+            width: '35rem',
+            height: '48rem',
+            borderRadius: '1rem',
+            objectFit: 'contain'
+          }} />
         </SwiperSlide>
-       
+        <SwiperSlide style={{}}>
+          <img src="planos.png" style={{
+            width: '35rem',
+            height: '48rem',
+            borderRadius: '1rem',
+            objectFit: 'contain'
+          }} />
+        </SwiperSlide>
 
-        
+
+
       </Swiper>
-    
+
     </S.Container>
 
-   
 
 
 
-  
 
 
 
-  
+
+
+
   </>)
 }
 

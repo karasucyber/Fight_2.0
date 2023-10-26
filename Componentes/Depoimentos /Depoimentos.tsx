@@ -47,7 +47,7 @@ export const Depoimentos = () => {
         <SwiperSlide>
           <img src="depoimento5.jpg" />
         </SwiperSlide>
-        <SwiperSlide style={{ }}>
+        <SwiperSlide>
           <img src="depoimento6.jpg" />
         </SwiperSlide>
        

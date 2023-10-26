@@ -7,7 +7,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-
+height: 100%;
+width: 100%;
 `;
 export const Titulo =styled.h1`
 font-size: 50px;
