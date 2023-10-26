@@ -5,47 +5,62 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { EffectCoverflow,Pagination,Navigation } from "swiper/modules";
+import * as S from "./style";
+
 
 export const Planos = () => {
   return(<> 
+   <S.Container> 
+        <S.Titulo> Depoimentos</S.Titulo>
+    <Swiper
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={'auto'}
+        loop={true}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 0,
+          depth: 500,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow,Navigation]}
+        className="swiper1"
+      >
+        <SwiperSlide>
+          <img src="depoimento2.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="depoimento3.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="depoimento4.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="depoimento5.jpg" />
+        </SwiperSlide>
+        <SwiperSlide style={{ }}>
+          <img src="depoimento6.jpg" />
+        </SwiperSlide>
+       
 
-  <div className="container"> 
-   <h1 className="heading"> Planos </h1>
-   <Swiper effect={'coverflow'}
-   grabCursor={true}
-   centeredSlides={true}
-   loop={true}
+        
+      </Swiper>
+    
+    </S.Container>
+
    
-   slidesPerView={5}
-   coverflowEffect={{rotate:0, stretch: 0, depth:100,modifier: 2.5, }}
-   pagination={{el:'',clickable :true}}
-   navigation={{
-    nextEl:'swiper-button-next slider-arrow',
-    prevEl:'swiper-button-prev slider-arrow',
-    hideOnClick: true,
 
-   }}
-   modules={[EffectCoverflow, Pagination, Navigation]}
-   className='swiper_container'
-   > 
-    <SwiperSlide>
-      <h1> </h1>
-    <img src="planos.png" alt="" />
-     </SwiperSlide>
-     <SwiperSlide>
-    <img src="planos.png" alt="" />
-     </SwiperSlide>
-     <SwiperSlide>
-    <img src="planos.png" alt="" />
-     </SwiperSlide>
-     <SwiperSlide>
-    <img src="planos.png" alt="" />
-     </SwiperSlide>
-     <SwiperSlide>
-    <img src="planos.png" alt="" />
-     </SwiperSlide>
-   </Swiper>
-  </div></>)
+
+
+  
+
+
+
+  
+  </>)
 }
 
 export default Planos
