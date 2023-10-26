@@ -8,6 +8,7 @@ import { Footer } from "@/Componentes/Footer/Footer";
 import Depoimentos from "@/Componentes/Depoimentos /Depoimentos";
 import { Beneficios } from "@/Componentes/Beneficios /Beneficions";
 import CreateAquillae from "@/Componentes/Footer/CreateAquillae";
+import Page2 from "@/Componentes/Video/page2";
 
 export default function Home() {
   return (
