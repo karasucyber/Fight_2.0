@@ -1,30 +1,67 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import * as S from './style';
 import YouTube from 'react-youtube';
 
 export const Page2 = () => {
-  // Configuração inicial do vídeo
-  const initialOpts = {
-    width: '700', 
-    height: '300', 
+  const videoId = 'mzacTvTxzUY';
+  const [opts, setOpts] = useState({
+    width: '640', // Largura padrão para telas maiores
+    height: '390', // Altura padrão para telas maiores
     playerVars: {
       autoplay: 1,
     },
-  };
+  });
 
-  // ID do vídeo do YouTube
-  const videoId = 'mzacTvTxzUY'; 
+  useEffect(() => {
+    const updateVideoSize = () => {
+      const screenWidth = window.innerWidth;
+
+      if (screenWidth <= 768) {
+        setOpts({
+          width: '300', // Ajuste de largura para telas menores
+          height: '200', // Ajuste de altura para telas menores
+          playerVars: {
+            autoplay: 1,
+          },
+        });
+      } else if (screenWidth <= 1024) {
+        setOpts({
+          width: '480', // Ajuste de largura para telas de tamanho médio
+          height: '270', // Ajuste de altura para telas de tamanho médio
+          playerVars: {
+            autoplay: 1,
+          },
+        });
+      } else {
+        setOpts({
+          width: '640', // Largura padrão para telas maiores
+          height: '390', // Altura padrão para telas maiores
+          playerVars: {
+            autoplay: 1,
+          },
+        });
+      }
+    };
+
+    // Execute a função quando a janela for redimensionada
+    window.addEventListener('resize', updateVideoSize);
+    updateVideoSize(); // Execute a função uma vez para definir as opções iniciais
+
+    return () => {
+      // Remova o ouvinte do evento de redimensionamento quando o componente for desmontado
+      window.removeEventListener('resize', updateVideoSize);
+    };
+  }, []);
 
   return (
     <S.Container>
       <S.Titulo>Veja</S.Titulo>
       <S.VideoContainer>
-        <YouTube videoId={videoId} opts={initialOpts} /> {/* Usando opts para fornecer as opções */}
- </S.VideoContainer>
-     <S.Paragrafo>
-        <p> lorem ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+        <YouTube videoId={videoId} opts={opts} />
+      </S.VideoContainer>
+      <S.Paragrafo>
+        <p> lorem ipsum ... </p>
       </S.Paragrafo>
-     
     </S.Container>
   );
 };
