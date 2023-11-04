@@ -11,3 +11,4 @@ export const ContainerMain = styled.div`
   background-size: cover;
 
   `;
+  

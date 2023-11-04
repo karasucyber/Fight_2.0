@@ -55,19 +55,23 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra preta com opacidade 1 */
 `
 
 export const Container = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 100%;
-width: 100%;
-padding: 20px;
-margin: 10px;
-background-image: url("fundos.jpeg");
-background-color: #cccccc;
-@media only screen and (max-width: 768px) {
-    flex-direction: column; /* Altere a direção da flexbox para empilhar em telas menores */
-    height: 100%; 
-    width: 100%; 
-    padding: 20px; 
-}`;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  background-image: url("fundos.jpeg");
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: center; /* Center the background image */
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+  }
+`;

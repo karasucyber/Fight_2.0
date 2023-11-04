@@ -69,15 +69,7 @@ export const Planos = () => {
             objectFit: 'contain'
           }} />
         </SwiperSlide>
-        <SwiperSlide style={{}}>
-          <img src="planos.png" style={{
-            width: '35rem',
-            height: '48rem',
-            borderRadius: '1rem',
-            objectFit: 'contain'
-          }} />
-        </SwiperSlide>
-
+    
 
 
       </Swiper>
