@@ -15,11 +15,15 @@ background-color: red;
 export const Card = styled.div `
 border-radius: 10px; 
   position: relative;
-  width: 400px;
-  height: 200px;
+  width: 350px;
+  height: 100%;
   overflow: hidden;
   color: white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+
   background-size: cover;
+  overflow: auto; /* Adiciona uma barra de rolagem quando necessário */
+
   padding: 10px;
   @media only screen and (max-width: 768px) {
     width: 400px;
@@ -27,6 +31,14 @@ border-radius: 10px;
    
    }
   `;
+
+
+  export const paragrafo = styled.p`
+  text-shadow: -4px 0 20px rgba(0, 0, 0, 1);
+  color: black;
+
+   
+  `
 
 export const ContainerCard = styled.div`
 display: flex;
@@ -123,15 +135,19 @@ export const Titulo = styled.h1`
 padding: 10px;
 margin: 10px;
 color:white;
+
+
 `
 
 export const ContainerIcon1 = styled.div`
 width: 7px;
 height: 100%;
+
 `
 
 export const ContainerIcons = styled.div`
 width: 100px;
 height: 100px;
+
 
 `
