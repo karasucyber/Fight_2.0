@@ -11,6 +11,7 @@ width: 100%;
 
 
 
+
 `
 export const ContaineVid = styled.div`
 height: 100%;

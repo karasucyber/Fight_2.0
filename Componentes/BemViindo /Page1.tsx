@@ -13,7 +13,7 @@ const Page1 = () => {
       <S.ContainerTex>
       <S.Titulo>Treine sem sair de casa </S.Titulo>
       <S.Paragrafo>levamos o treino até você</S.Paragrafo>
-       <S.Butao>  Eu quero <IonIcon name="caret-forward-outline"></IonIcon></S.Butao>
+       <S.Butao href="https://www.instagram.com/homefight_/"  target="_blank" >  Eu quero <IonIcon name="caret-forward-outline"></IonIcon></S.Butao>
         </S.ContainerTex>
         <Page2></Page2>
     </S.Container>

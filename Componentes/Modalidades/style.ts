@@ -14,7 +14,7 @@ background-image: url("");
 background-color: #666666;
 `;
 
-export const Card = styled.div `
+export const Card = styled.div`
 border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
   position: relative;
   background: #555;
@@ -24,13 +24,16 @@ border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
   background-image: url("card-funcional.png");
   background-color: #f900;
   color: #000;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+
+  
   background-size: contain;
   background-repeat: no-repeat; 
     padding: 0px;
   `;
 
 
-  export const Card2 = styled.div `
+export const Card2 = styled.div`
 border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
   position: relative;
   background: #555;
@@ -41,51 +44,57 @@ border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
   background-color: #f900;
   background-size: contain;
   background-repeat: repeat; 
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+
   `;
 
-  export const Card3 = styled.div `
+export const Card3 = styled.div`
   border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
     position: relative;
     background: #555;
     width: 220px;
-    height: 380px;
+    height: 370px;
     overflow: hidden;
     background-image: url("card-thai.png");
     background-color: #f900;
-    
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
     color: #000;
     background-size: contain;
     background-repeat: no-repeat; 
     `;
 
-    export const Card4 = styled.div `
+export const Card4 = styled.div`
     border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
       position: relative;
       background: #555;
       width: 220px;
-    height: 380px;
+      height: 370px;
       overflow: hidden;
       background-image: url("card-yoga.png");
       background-color: #f900;
       color: #000;
       background-size: contain;
       background-repeat: no-repeat; 
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+
       `;
 
-      export const Card5 = styled.div `
+export const Card5 = styled.div`
       border-radius: 10px; /* Defina o raio dos cantos arredondados desejado */
         position: relative;
         background: #555;
         width: 220px;
-    height: 380px;  
+        height: 370px;  
         overflow: hidden;
         background-image: url("card-personal.png");
         background-color: #f900;
         color: #000;
         background-size: contain;
         background-repeat: no-repeat; 
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+
         `;
-  
+
 
 export const ContainerCard = styled.div`
 display: flex;
@@ -176,7 +185,16 @@ export const span4 = styled.div`
 `;
 
 export const Titulo = styled.h1`
-padding: 10px;
-margin: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 50px;
 color:white;
+padding:10px;
+gap: 15px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra preta com opacidade 1 */
+@media only screen and (max-width: 768px) {
+    font-size: 40px;
+}
 `
