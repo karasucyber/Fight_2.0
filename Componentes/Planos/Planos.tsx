@@ -12,7 +12,14 @@ export const Planos = () => {
   return (<>
     <S.Container>
       <S.Titulo> Planos</S.Titulo>
-      <Swiper
+      <div style={{ 
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  maxWidth: '650px', // Set the maximum width
+  maxHeight: '600px' // Set the maximum height
+}}>      <Swiper
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
@@ -69,10 +76,8 @@ export const Planos = () => {
             objectFit: 'contain'
           }} />
         </SwiperSlide>
-    
-
-
       </Swiper>
+      </div>
 
     </S.Container>
 
