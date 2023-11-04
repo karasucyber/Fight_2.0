@@ -20,13 +20,13 @@ border-radius: 10px;
   overflow: hidden;
   color: white;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
-
   background-size: cover;
   overflow: hidden; 
   padding: 10px;
+
   @media only screen and (max-width: 768px) {
     width: 300px;
-    height: 400px;
+    height:auto;
    
    }
   `;
