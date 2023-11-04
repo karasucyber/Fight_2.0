@@ -22,20 +22,18 @@ border-radius: 10px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
 
   background-size: cover;
-  overflow: auto; /* Adiciona uma barra de rolagem quando necessário */
-
+  overflow: hidden; 
   padding: 10px;
   @media only screen and (max-width: 768px) {
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
    
    }
   `;
 
 
   export const paragrafo = styled.p`
-  text-shadow: -4px 0 20px rgba(0, 0, 0, 1);
-  color: black;
+  text-shadow: -4px 0 20px rgba(0, 0, 0, 0);
 
    
   `

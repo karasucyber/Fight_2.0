@@ -15,7 +15,11 @@ Seja para esclarecer dúvidas sobre nossos serviços, agendar sessões de treina
         </S.Column>
         <S.Column> 
             <S.Titulo2> Home fight</S.Titulo2>
-            <S.Paragrafo> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like) </S.Paragrafo>
+            <S.Paragrafo> A Home Fight teve seu início durante um momento desafiador da história, a pandemia. Cumprindo rigorosamente os protocolos de segurança estabelecidos na época, nossa empresa emergiu como um ponto de apoio fundamental para a saúde física e mental de nossos clientes.
+
+Fundada por Henrique Garcez, um visionário que deixou um legado duradouro, a Home Fight continua a carregar a tocha de seu compromisso. Nossa missão é mais do que apenas treinar; é promover bem-estar e qualidade de vida.
+
+Desde então, crescemos e evoluímos, mas permanecemos fiéis ao nosso objetivo de tornar a saúde acessível e eficaz, independentemente das circunstâncias. Na Home Fight, valorizamos cada passo do nosso percurso e estamos comprometidos em ser uma fonte de força e resiliência para nossos clientes, inspirando todos a alcançar seu melhor potencial. </S.Paragrafo>
         </S.Column>
         <S.Column> 
    <S.Titulo2> Siga nas redes socias</S.Titulo2>
