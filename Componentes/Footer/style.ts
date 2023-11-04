@@ -58,7 +58,7 @@ export const Titulo = styled.div`
   }
 
   @media (max-width: 576px) {
-    font-size: 14px;
+    font-size: px;
   }
 `;
 
@@ -67,11 +67,11 @@ export const Paragrafo = styled.div`
   font-size: 12px;
 
   @media (max-width: 768px) {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   @media (max-width: 576px) {
-    font-size: 8px;
+    font-size: 15px;
   }
 `;
 
