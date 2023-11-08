@@ -62,7 +62,6 @@ export const Container = styled.div`
   height: 100%;
   width: 100%;
   padding: 20px;
-  margin: 10px;
   background-image: url("fundos.jpeg");
   background-color: #cccccc;
   background-size: cover;
