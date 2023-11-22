@@ -19,9 +19,8 @@ export default function Home() {
   <Modalidades/>
   <Depoimentos/>
   <Beneficios/>
-  <Planos></Planos>
+  <Planos/>
   <Footer/>
-  <CreateAquillae></CreateAquillae>
  </S.ContainerMain>
 
  
