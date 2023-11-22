@@ -1,7 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 
 export const Container = styled.div`
-display: flex;
+display: flex-block;
 flex-direction: column;
 justify-content: center;
 align-items: center;

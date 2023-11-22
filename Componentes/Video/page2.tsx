@@ -60,11 +60,9 @@ export const Page2 = () => {
         <YouTube videoId={videoId} opts={opts} />
       </S.VideoContainer>
       <S.Paragrafo>
-        <p> Na Homefight, somos uma empresa que oferece serviços de personal que vão até você, simplificando nossa busca por qualidade de vida. Nós vamos até você, facilitando a incorporação de hábitos saudáveis ao seu dia a dia. Além de promover a saúde, nosso compromisso é criar memórias significativas com meus alunos.
-
-Minha abordagem única não se limita a exercícios físicos; ela se estende para nutrir sua mente e enriquecer sua vida. Valorizamos a consistência, ajudando você a manter um estilo de vida saudável a longo prazo.
-
-Ao fazer parte da Homefight, você não apenas se beneficia de um corpo mais forte, mas também da construção de memórias inesquecíveis que enriquecerão nossa jornada. Junte-se a nós para experimentar a plenitude da vida, uma vida repleta de saúde, bem-estar e momentos que você apreciará para sempre. </p>
+        <p>Somos uma empresa de treinamento personalizado que tem como objetivo levar saúde até você, no local que desejar, para aulas individuais ou em grupo. 
+Ajudamos no emagrecimento, criamos hábitos que tiram as pessoas do sedentarismo, diminuindo o estresse e ansiedade, dentre outros diversos benefícios.
+Possuímos uma metodologia com treinos dinâmicos e individualizados para cada um de nossos alunos, valorizando a consistência e ajudando você a manter um estilo de vida saudável a longo prazo.  </p>
       </S.Paragrafo>
     </S.Container>
   );

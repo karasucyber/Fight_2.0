@@ -9,9 +9,8 @@ export const Footer = ()=>{
     <S.Container>
         <S.Column> 
             <S.Titulo2> Atendimento </S.Titulo2>
-            <S.Paragrafo> No que diz respeito ao atendimento, estamos sempre prontos para auxiliá-lo. Nós priorizamos o contato direto e conveniente, principalmente via WhatsApp e Instagram. Na Homefight, temos uma atendente dedicada que está ansiosa para responder a todas as suas perguntas e fornecer o suporte de que você precisa.
-
-Seja para esclarecer dúvidas sobre nossos serviços, agendar sessões de treinamento personalizado ou discutir suas metas de saúde e qualidade de vida, nossa equipe de atendimento está à disposição para ajudar. Eles são a sua conexão direta com a Homefight e estão prontos para tornar sua experiência conosco ainda mais personalizada e satisfatória. Sinta-se à vontade para entrar em contato conosco no WhatsApp ou Instagram a qualquer momento. Estamos aqui para atendê-lo de maneira prática e eficiente.</S.Paragrafo>
+            <S.Paragrafo>  Estamos sempre a disposição para tirar dúvidas sobre nossos serviços, agendar sessões de treinamento e discutir suas metas e objetivos! Entre em contato conosco via Whatsapp e venha cuidar da sua saúde! 
+* HOME FIGHT: A Home Fight teve o início da sua história em um momento desafiador em todo mundo: a pandemia. Nossa empresa cresceu com o propósito de levar saúde física e mental para todos nossos alunos. Desde então, crescemos e evoluímos, mas permanecendo fiéis ao nosso objetivo de tornar a vida de nossos alunos mais saudável. </S.Paragrafo>
         </S.Column>
         <S.Column> 
             <S.Titulo2> Home fight</S.Titulo2>
