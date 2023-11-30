@@ -23,21 +23,29 @@ border-radius: 20px;
 overflow: hidden;
 `;
 
+
 export const Paragrafo = styled.p`
-display: block-inline;
-width: 55%;
-height: 50%;
-font-size: 14px;
-border-radius: 10px;
-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-padding: 20px;
-margin: 5px;
-color: #9A1212;
-text-align: center;
-font-size: 18px;
-font-weight: bold;
+  display: block;
+  width: 100%; /* Alterado para 100% para ocupar toda a largura do contêiner pai */
+  max-width: 600px; /* Define uma largura máxima para evitar que o texto fique muito largo em telas grandes */
+  font-size: 16px; /* Ajustado para um tamanho de fonte mais legível */
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 15px; /* Reduzido o padding para deixar mais espaço em telas menores */
+  margin: 10px 0; /* Alterado o margin para criar mais espaço ao redor do componente */
+  color: #9A1212;
+  text-align: center;
+  font-weight: bold;
+
+  @media (min-width: 768px) {
+    /* Altera o estilo para telas maiores (768px e acima) */
+    font-size: 18px;
+    padding: 20px;
+  }
 }
-`
+`;
+
+
 
 export const Titulo =styled.h1`
 display: flex;

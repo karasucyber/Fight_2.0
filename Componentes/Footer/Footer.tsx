@@ -2,6 +2,36 @@ import React from "react";
 import * as S from "./style";
 import { IonIcon } from '@ionic/react';
 import { Button } from "reactstrap";
+import styled from "styled-components";
+
+const commonButtonStyles = `
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+`;
+
+const WhatsappButton = styled.a`
+  ${commonButtonStyles}
+
+
+`;
+
+const TikTokButton = styled(Button)`
+  ${commonButtonStyles}
+  background: none;
+  transition: background 0.3s ease-in-out;
+
+`;
+
+const InstagramButton = styled(Button)`
+  ${commonButtonStyles}
+
+
+`;
+
+
 
 export const Footer = ()=>{
     return(<>
@@ -22,9 +52,9 @@ Desde então, crescemos e evoluímos, mas permanecemos fiéis ao nosso objetivo 
         </S.Column>
         <S.Column> 
    <S.Titulo2> Siga nas redes socias</S.Titulo2>
-            <S.ContainerIcons><Button href="https://www.instagram.com/homefight_/"  target="_blank"><IonIcon name="logo-instagram"></IonIcon></Button> 
-             <Button href="https://www.tiktok.com/@homefight_ "  target="_blank"><IonIcon name="logo-tiktok"></IonIcon></Button>
-             <Button href="https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0"  target="_blank"><IonIcon name="logo-whatsapp"></IonIcon> </Button>
+            <S.ContainerIcons><InstagramButton href="https://www.instagram.com/homefight_/"  target="_blank"><IonIcon name="logo-instagram"></IonIcon></InstagramButton> 
+             <TikTokButton href="https://www.tiktok.com/@homefight_ "  target="_blank"><IonIcon name="logo-tiktok"></IonIcon></TikTokButton>
+             <WhatsappButton href="https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0"  target="_blank"><IonIcon name="logo-whatsapp"></IonIcon> </WhatsappButton>
              </S.ContainerIcons>
             <S.ContainerIcons>               
             </S.ContainerIcons>
