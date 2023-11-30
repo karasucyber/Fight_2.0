@@ -24,7 +24,6 @@ justify-content: center;
 align-items: center;
 font-size: 50px;
 color: white;
-padding:10px;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra preta com opacidade 1 */
 @media only screen and (max-width: 768px) {
     font-size: 30px;
@@ -34,11 +33,11 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra preta com opacidade 1 */
 export const Paragrafo = styled.p`
 padding:10px;
 color:white;
-font-size: 25px;
+font-size: 20px;
 
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra preta com opacidade 1 */
 @media only screen and (max-width: 768px) {
- font-size: 20px;
+ font-size: 15px;
 }
 `
 export const Butao = styled.button`
