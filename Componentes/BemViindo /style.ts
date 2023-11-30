@@ -27,7 +27,7 @@ color: white;
 padding:10px;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra preta com opacidade 1 */
 @media only screen and (max-width: 768px) {
-    font-size: 35px;
+    font-size: 30px;
 }
 `
 
@@ -38,7 +38,7 @@ font-size: 25px;
 
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra preta com opacidade 1 */
 @media only screen and (max-width: 768px) {
- font-size: 24px;
+ font-size: 20px;
 }
 `
 export const Butao = styled.button`
