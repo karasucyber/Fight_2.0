@@ -37,7 +37,7 @@ export const Planos = () => {
         className="swiper1"
       >
         <SwiperSlide>
-          <img src="planos.png" style={{
+          <img src="plano-anual.png" style={{
             width: '35rem',
             height: '48rem',
             borderRadius: '1rem',
@@ -45,7 +45,7 @@ export const Planos = () => {
           }} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="planos.png" style={{
+          <img src="plano-mensasl.png" style={{
             width: '35rem',
             height: '48rem',
             borderRadius: '1rem',
@@ -53,7 +53,7 @@ export const Planos = () => {
           }} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="planos.png" style={{
+          <img src="plano-semestral (1).png" style={{
             width: '35rem',
             height: '48rem',
             borderRadius: '1rem',
@@ -61,15 +61,7 @@ export const Planos = () => {
           }} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="planos.png" style={{
-            width: '35rem',
-            height: '48rem',
-            borderRadius: '1rem',
-            objectFit: 'contain'
-          }} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="planos.png" style={{
+          <img src="plano-trimestral.png" style={{
             width: '35rem',
             height: '48rem',
             borderRadius: '1rem',

@@ -47,11 +47,7 @@ export const Beneficios = () => {
 Conte conosco para orientação profissional e resultados eficazes!</S.paragrafo>
 
      </S.Card>
-
       </S.ContainerCard>
-      
-   
-
     </S.Container>
      
 

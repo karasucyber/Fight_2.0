@@ -7,9 +7,8 @@ justify-content: center;
 align-items: center;
 height: 100%;
 width: 100%;
-padding: 20px;
-margin: 10px;
-background-color: red;
+margin: 0px;
+background-color: #680000;
 `;
 
 export const Card = styled.div `
@@ -40,14 +39,13 @@ border-radius: 10px;
 
 export const ContainerCard = styled.div`
 display: flex;
-gap: 60px;
+gap: 40px;
 padding: 50px;
 justify-content: space-between;
 @media (max-width: 768px) {
   flex-direction: column;
   align-items: center;
   gap: 30px;
-
 }`;
 
 const animar1 = keyframes`
@@ -86,8 +84,6 @@ export const span2 = styled.div`
   right: 0;
   width: 4%;
   height: 100%;
-
-
   animation-delay: 1s;
 `;
 
@@ -109,6 +105,7 @@ export const span3 = styled.div`
   background: linear-gradient(to left, transparent, red);
   animation-delay: 1s;
 `;
+
 const animar4 = keyframes`
   0% {
     transform: translateY(100%);
@@ -125,10 +122,7 @@ export const span4 = styled.div`
   width: 7px;
   height: 100%;
   animation-delay: 1s;
-  
-
 `;
-
 export const Titulo =styled.h1`
 display: flex;
 flex-direction: column;
@@ -136,8 +130,7 @@ justify-content: center;
 align-items: center;
 font-size: 50px;
 color:white;
-padding:10px;
-gap: 15px;
+margin: 20px;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra preta com opacidade 1 */
 @media only screen and (max-width: 768px) {
     font-size: 40px;
@@ -146,12 +139,9 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra preta com opacidade 1 */
 export const ContainerIcon1 = styled.div`
 width: 7px;
 height: 100%;
-
 `
 
 export const ContainerIcons = styled.div`
 width: 100px;
 height: 100px;
-
-
 `

@@ -4,37 +4,42 @@ import * as S from './style';
 import Page2 from "../Video/page2";
 import { IonIcon } from '@ionic/react';
 import { Button } from "reactstrap";
+import styled from "styled-components";
+import Link from "next/link";
+
+// Importações necessárias
+const StyledLinkButton = styled(Button)`
+  background-color: #ffff;
+  color: black;
+  font-size: px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none; /* Remover sublinhado padrão */
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+`;
 
 
-
+const link:String = "https://www.youtube.com/watch?v=KYwA5k00p2I&list=RDkQ2ZFVJNMs0&index=6";
 const Page1 = () => {
   return (
-  <>
-    <S.Container>
-      <S.ContainerTex>
-      <S.Titulo>Treine sem sair de casa </S.Titulo>
-      <S.Paragrafo>levamos o treino até você</S.Paragrafo>
-      <Button
-  style={{
-    backgroundColor: 'transparent',
-    color: 'white',
-    fontSize: '20px',
-    cursor: 'pointer',
-    display: 'flex',
-    alignItems: 'center',
-    textShadow: '2px 2px 4px rgba(0, 0, 0, 1)',
-  }}
-  href="https://www.instagram.com/homefight_/"
-  target="_blank"
->
-  Eu quero <IonIcon name="caret-forward-outline" />
-</Button>
+    <>
+      <S.Container>
+        <S.ContainerTex>
+          <S.Titulo>Treine sem sair de casa </S.Titulo>
+          <S.Paragrafo>Levamos o treino até você</S.Paragrafo>
+          <StyledLinkButton href={Link}> Eu quero  <IonIcon name="caret-forward-outline" /></StyledLinkButton>
         </S.ContainerTex>
-        <Page2></Page2>
-    </S.Container>
-   </>
+        <Page2 />
+      </S.Container>
+    </>
   );
 }
-
 
 export default Page1;
