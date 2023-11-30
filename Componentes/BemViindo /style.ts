@@ -26,18 +26,18 @@ font-size: 50px;
 color: white;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra preta com opacidade 1 */
 @media only screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 25px;
 }
 `
 
 export const Paragrafo = styled.p`
 padding:10px;
 color:white;
-font-size: 20px;
+font-size: 25px;
 
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra preta com opacidade 1 */
 @media only screen and (max-width: 768px) {
- font-size: 15px;
+ font-size: 20px;
 }
 `
 export const Butao = styled.button`
