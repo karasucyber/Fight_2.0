@@ -32,8 +32,8 @@ const Page1 = () => {
     <>
       <S.Container>
         <S.ContainerTex>
-          <S.Titulo>Treine sem sair de casa </S.Titulo>
-          <S.Paragrafo>Levamos o treino até você</S.Paragrafo>
+          <S.Titulo>TREINE SEM SAIR DE CASA!</S.Titulo>
+          <S.Paragrafo>Nós levamos o treino até você.</S.Paragrafo>
           <StyledLinkButton href={Link}> Eu quero  <IonIcon name="caret-forward-outline" /></StyledLinkButton>
         </S.ContainerTex>
         <Page2 />

@@ -18,7 +18,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 font-size: 50px;
-color:white;
+color: black;
 margin: 20px;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra preta com opacidade 1 */
 @media only screen and (max-width: 768px) {
