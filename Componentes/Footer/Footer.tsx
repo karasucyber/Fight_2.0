@@ -52,8 +52,9 @@ Fundada por Henrique Garcez, um visionário que deixou um legado duradouro, a Ho
 Desde então, crescemos e evoluímos, mantendo-nos fiéis ao nosso objetivo de tornar a saúde acessível e eficaz, independentemente das circunstâncias. Na Home Fight, valorizamos cada passo de nosso percurso e estamos comprometidos em ser uma fonte de força e resiliência para nossos clientes, inspirando todos a alcançar seu melhor potencial. </S.Paragrafo>
         </S.Column>
         <S.Column> 
-   <S.Titulo2> Siga nas redes socias</S.Titulo2>
-            <S.ContainerIcons><InstagramButton href="https://www.instagram.com/homefight_/"  target="_blank"><IonIcon name="logo-instagram"></IonIcon></InstagramButton> 
+            <S.ContainerIcons>
+            <S.Titulo2> Siga nas redes socias</S.Titulo2>
+<InstagramButton href="https://www.instagram.com/homefight_/"  target="_blank"><IonIcon name="logo-instagram"></IonIcon></InstagramButton> 
              <TikTokButton href="https://www.tiktok.com/@homefight_ "  target="_blank"><IonIcon name="logo-tiktok"></IonIcon></TikTokButton>
              <WhatsappButton href="https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0"  target="_blank"><IonIcon name="logo-whatsapp"></IonIcon> </WhatsappButton>
              </S.ContainerIcons>
