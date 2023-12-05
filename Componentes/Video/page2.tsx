@@ -50,7 +50,7 @@ export const Page2 = () => {
   }, []);
   return (
     <S.Container>
-      <S.Titulo> Veja na prática !!!</S.Titulo>
+      <S.Titulo> Veja na prática !</S.Titulo>
       <S.VideoContainer>
         <YouTube videoId={videoId} opts={opts} />
       </S.VideoContainer>
