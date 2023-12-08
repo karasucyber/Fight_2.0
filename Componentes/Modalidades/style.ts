@@ -86,7 +86,7 @@ export const Card5 = styled.div`
         width: 220px;
         height: 370px;  
         overflow: hidden;
-        background-image: url("card-personal.png");
+        background-image: url("card-musculacao.png");
         background-color: #f900;
         color: #000;
         background-size: contain;
