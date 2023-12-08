@@ -34,8 +34,14 @@ export const Footer = ()=>{
     <S.Container>
         <S.Column> 
             <S.Titulo2> Atendimento </S.Titulo2>
-            <S.Paragrafo>  Estamos sempre a disposição para tirar dúvidas sobre nossos serviços, agendar sessões de treinamento e discutir suas metas e objetivos! Entre em contato conosco via Whatsapp e venha cuidar da sua saúde! 
-* HOME FIGHT: A Home Fight teve o início da sua história em um momento desafiador em todo mundo: a pandemia. Nossa empresa cresceu com o propósito de levar saúde física e mental para todos nossos alunos. Desde então, crescemos e evoluímos, mas permanecendo fiéis ao nosso objetivo de tornar a vida de nossos alunos mais saudável. </S.Paragrafo>
+            <S.Paragrafo> A Home Fight iniciou sua história em um momento desafiador em todo o mundo: a pandemia. Nossa empresa cresceu com o propósito de proporcionar saúde física e mental a todos os nossos alunos. Desde então, crescemos e evoluímos, mantendo-nos fiéis ao nosso objetivo de tornar a vida de nossos alunos mais saudável.
+
+
+
+
+
+
+</S.Paragrafo>
         </S.Column>
         <S.Column> 
             <S.Titulo2> Home fight</S.Titulo2>
