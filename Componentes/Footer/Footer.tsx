@@ -39,11 +39,7 @@ export const Footer = ()=>{
         <S.Column> 
             <S.Titulo2> Home fight</S.Titulo2>
             <S.Paragrafo> 
-A Home Fight teve seu início durante um momento desafiador da história: a pandemia. Cumprimos rigorosamente os protocolos de segurança estabelecidos na época, e nossa empresa emergiu como um ponto de apoio fundamental para a saúde física e mental de nossos clientes.
-
-Fundada por Henrique Garcez, um visionário que deixou um legado duradouro, a Home Fight continua a carregar a tocha de seu compromisso. Nossa missão vai além do simples treinamentonn é promover bem-estar e qualidade de vida.
-
-Desde então, crescemos e evoluímos, mantendo-nos fiéis ao nosso objetivo de tornar a saúde acessível e eficaz, independentemente das circunstâncias. Na Home Fight, valorizamos cada passo de nosso percurso e estamos comprometidos em ser uma fonte de força e resiliência para nossos clientes, inspirando todos a alcançar seu melhor potencial. </S.Paragrafo>
+            A Home Fight iniciou sua história em um momento desafiador em todo o mundo: a pandemia. Nossa empresa cresceu com o propósito de proporcionar saúde física e mental a todos os nossos alunos. Desde então, crescemos e evoluímos, mantendo-nos fiéis ao nosso objetivo de tornar a vida de nossos alunos mais saudável.</S.Paragrafo>
         </S.Column>
         <S.Column> 
             <S.ContainerIcons>
