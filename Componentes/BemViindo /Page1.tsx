@@ -7,7 +7,6 @@ import { Button } from "reactstrap";
 import styled from "styled-components";
 import Link from "next/link";
 
-// Importações necessárias
 const StyledLinkButton = styled(Button)`
   background-color: #ffff;
   color: black;
@@ -34,7 +33,7 @@ const Page1 = () => {
         <S.ContainerTex>
           <S.Titulo>TREINE SEM SAIR DE CASA!</S.Titulo>
           <S.Paragrafo>Nós levamos o treino até você.</S.Paragrafo>
-          <StyledLinkButton href={Link}> Eu quero  <IonIcon name="caret-forward-outline" /></StyledLinkButton>
+          <StyledLinkButton href="https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0"> Eu quero  <IonIcon name="caret-forward-outline" /></StyledLinkButton>
         </S.ContainerTex>
         <Page2 />
       </S.Container>

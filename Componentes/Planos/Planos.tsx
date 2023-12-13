@@ -9,10 +9,11 @@ import * as S from "./style";
 
 export const Planos = () => {
   const planosData = [
-    { imgSrc: "plano-anual.png", href: "https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0" },
     { imgSrc: "plano-mensasl.png", href: "https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0" },
-    { imgSrc: "plano-semestral.png", href: "https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0" },
     { imgSrc: "plano-trimestral.png", href: "https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0" },
+    { imgSrc: "plano-semestral.png", href: "https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0" },
+    { imgSrc: "plano-anual.png", href: "https://api.whatsapp.com/send/?phone=5511989188558&text=Ol%C3%A1&type=phone_number&app_absent=0" },
+
   ];
 
   return (
